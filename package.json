@@ -1,0 +1,25 @@
+{
+  "name": "article_sample_react_node",
+  "version": "1.0.0",
+  "description": "React&Node.jsを利用したポートフォリオ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "client":"npm run start --prefix client",
+    "test": "concurrently \"node index.js\" npm run client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keyoshi083/article_sample_react_node.git"
+  },
+  "author": "Kei Yoshida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keyoshi083/article_sample_react_node/issues"
+  },
+  "homepage": "https://github.com/Keyoshi083/article_sample_react_node#readme",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "express": "^4.17.1"
+  }
+}

@@ -4,9 +4,9 @@
   "description": "React&Node.jsを利用したポートフォリオ",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "client":"npm run start --prefix client",
-    "test": "concurrently \"node index.js\" npm run client"
+    "dev": "concurrently \"npm run start\" \"npm run client\""
   },
   "repository": {
     "type": "git",
